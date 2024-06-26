@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_SignUpPdf.pdf</name>
+   <tag></tag>
+   <elementGuidId>b2e054d6-7f59-4849-9ed8-9931880b4bda</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.file-name</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload'])[1]/following::div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;SignUpPdf.pdf&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b8c52e91-8eb2-44c5-a7b7-4f08d71271a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>file-name</value>
+      <webElementGuid>950fb2da-7e08-4eee-99cf-a40101ae58c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SignUpPdf.pdf</value>
+      <webElementGuid>ca2ae654-c207-4533-8679-36a768b0e976</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;default-theme&quot;]/app-root[1]/app-uesr-layout[1]/div[@class=&quot;user-body&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;content row&quot;]/div[@class=&quot;col-sm-12 col-md-6 col-xxl-5 content-form&quot;]/div[@class=&quot;body-form&quot;]/app-club-owner-sign-up[1]/div[1]/div[@class=&quot;row&quot;]/div[@class=&quot;form-container&quot;]/form[@class=&quot;ng-invalid ng-touched ng-dirty&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-6 col-sm-12 form-group&quot;]/app-file-upload[1]/div[@class=&quot;file-name&quot;]</value>
+      <webElementGuid>9a9ee0fc-96f0-4b8f-93f4-83fe5267b64e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload'])[1]/following::div[1]</value>
+      <webElementGuid>88676a84-1d18-45c1-9a77-554d6c95497d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[10]/following::div[3]</value>
+      <webElementGuid>b9971cd5-0517-4233-af94-167d0b9ab398</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[11]/preceding::div[1]</value>
+      <webElementGuid>78cc92c6-2e0e-4e9e-8890-04f82059f13b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='SignUpPdf.pdf']/parent::*</value>
+      <webElementGuid>e4f215b1-8c64-45d5-8fd2-3dcd8bc3bd66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-file-upload/div[2]</value>
+      <webElementGuid>473af87e-bd4a-4463-bcaf-db122fc57cd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'SignUpPdf.pdf' or . = 'SignUpPdf.pdf')]</value>
+      <webElementGuid>a9f63a6f-fe22-4846-892f-442ad2e77518</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

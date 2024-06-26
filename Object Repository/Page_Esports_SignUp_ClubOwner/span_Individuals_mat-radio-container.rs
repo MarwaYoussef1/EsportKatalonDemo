@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Individuals_mat-radio-container</name>
+   <tag></tag>
+   <elementGuidId>f8fc16b5-440b-4df8-85d2-c71b13d2ab0b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-radio-3 > label.mat-radio-label > span.mat-radio-container</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-radio-button[@id='mat-radio-3']/label/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#mat-radio-3 > .mat-radio-label > .mat-radio-container</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d25474a7-79f4-4888-8e04-ccddee7c2799</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-radio-container</value>
+      <webElementGuid>388e9da3-a62c-4638-982e-2dcddcfc85e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-radio-3&quot;)/label[@class=&quot;mat-radio-label&quot;]/span[@class=&quot;mat-radio-container&quot;]</value>
+      <webElementGuid>044e3429-0ec7-45af-9f6b-f747b7de54fe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-radio-button[@id='mat-radio-3']/label/span</value>
+      <webElementGuid>babb9b62-56a9-49e9-94f3-bab836bbb92c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Individuals'])[1]/following::span[1]</value>
+      <webElementGuid>0ed12498-91de-4ecb-8a77-20667b212e9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create New Account'])[1]/following::span[10]</value>
+      <webElementGuid>51f02e19-e89b-4d11-98f8-f4ba7f54febd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization'])[1]/preceding::span[6]</value>
+      <webElementGuid>ef60da5d-7cc3-4e43-961d-f5b5a9f84be9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-radio-button[2]/label/span</value>
+      <webElementGuid>32a70854-b29e-4a79-a1fa-7c485f2e06e4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

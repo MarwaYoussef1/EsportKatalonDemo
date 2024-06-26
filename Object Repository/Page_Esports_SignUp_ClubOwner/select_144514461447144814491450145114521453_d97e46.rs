@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_144514461447144814491450145114521453_d97e46</name>
+   <tag></tag>
+   <elementGuidId>d737bfa0-c94c-4d7b-a367-27d7ff023eee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[15]/following::select[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Select year&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>b322e2ae-e028-4017-8767-ad6aecf9b41d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Select year</value>
+      <webElementGuid>10d65d5f-e2fc-4930-98b5-c5e44b99c168</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Select year</value>
+      <webElementGuid>0cdbd489-a2d6-478b-b65b-3991763b1c7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-select</value>
+      <webElementGuid>30553c13-ae46-4f10-ac38-d8ecf78acb12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>14451446144714481449145014511452145314541455</value>
+      <webElementGuid>3dfdcb79-9ee4-4c2b-9a51-1a36fb939eed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;default-theme&quot;]/app-root[1]/app-uesr-layout[1]/div[@class=&quot;user-body&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;content row&quot;]/div[@class=&quot;col-sm-12 col-md-6 col-xxl-5 content-form&quot;]/div[@class=&quot;body-form&quot;]/app-club-owner-sign-up[1]/div[1]/div[@class=&quot;row&quot;]/div[@class=&quot;form-container&quot;]/form[@class=&quot;ng-invalid ng-touched ng-dirty&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-6 col-sm-12&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;hijri-date&quot;]/app-hijri-datepicker[@class=&quot;is-invalid-cr&quot;]/app-hijri-datepicker-content[1]/div[1]/ngb-datepicker[@class=&quot;dropdown-menu show&quot;]/div[@class=&quot;ngb-dp-header&quot;]/ngb-datepicker-navigation[1]/ngb-datepicker-navigation-select[@class=&quot;ngb-dp-navigation-select&quot;]/select[@class=&quot;form-select&quot;]</value>
+      <webElementGuid>0abd2edb-8b6b-471b-810e-b3f7c8bfb390</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[15]/following::select[2]</value>
+      <webElementGuid>b078622e-9af3-4e65-b993-34f9d199672e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mon'])[1]/preceding::select[1]</value>
+      <webElementGuid>673234ef-085a-4611-888e-b04b6d78ab37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='tue'])[1]/preceding::select[1]</value>
+      <webElementGuid>7aa1d676-3a5a-4aed-957f-ff7e4157d763</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select[2]</value>
+      <webElementGuid>e62e080e-82d1-4466-a9f5-191ed7750f9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@title = 'Select year' and (text() = '14451446144714481449145014511452145314541455' or . = '14451446144714481449145014511452145314541455')]</value>
+      <webElementGuid>3095536a-c5f5-4018-8232-5dc1956d8d96</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

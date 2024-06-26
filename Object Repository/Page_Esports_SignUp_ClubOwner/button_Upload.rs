@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Upload</name>
+   <tag></tag>
+   <elementGuidId>58697df5-c379-43b9-8ae1-969db11e5d34</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.upload-btn.w-100.mat-stroked-button.mat-button-base.mat-primary.cdk-focused.cdk-mouse-focused</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot; Upload&quot;i] >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e603bcc0-9da1-4699-9614-52ed546ab9c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>primary</value>
+      <webElementGuid>281df8d6-aa3e-4e8e-bc5e-85f00bcfde6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>03b38ba8-7083-4839-87dd-3ae3202414dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator upload-btn w-100 mat-stroked-button mat-button-base mat-primary cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>8d9ef7a4-a5bd-47a3-9f5e-26f6da5f51d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Upload</value>
+      <webElementGuid>93d8ef19-fa8b-4db9-acd9-559ed37261e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;default-theme&quot;]/app-root[1]/app-uesr-layout[1]/div[@class=&quot;user-body&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;content row&quot;]/div[@class=&quot;col-sm-12 col-md-6 col-xxl-5 content-form&quot;]/div[@class=&quot;body-form&quot;]/app-club-owner-sign-up[1]/div[1]/div[@class=&quot;row&quot;]/div[@class=&quot;form-container&quot;]/form[@class=&quot;ng-invalid ng-touched ng-dirty&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-6 col-sm-12 form-group&quot;]/app-file-upload[1]/div[@class=&quot;upload-btn-container&quot;]/div[@class=&quot;file-upload&quot;]/button[@class=&quot;mat-focus-indicator upload-btn w-100 mat-stroked-button mat-button-base mat-primary cdk-focused cdk-mouse-focused&quot;]</value>
+      <webElementGuid>6567060c-8b7d-486b-9eff-b6c639ca14db</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[4]</value>
+      <webElementGuid>f90057ce-c3b4-4076-8f2f-5b4d8f4572c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[16]/following::button[1]</value>
+      <webElementGuid>0b709273-5cf2-48fe-b393-5ce931ebc525</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Club IBAN'])[1]/preceding::button[1]</value>
+      <webElementGuid>5e4c5a17-f4e6-4faf-b45e-3c08e5fbe846</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/app-file-upload/div/div/button</value>
+      <webElementGuid>fe10af5f-3734-4fbe-aa4a-59aa925481d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = ' Upload' or . = ' Upload')]</value>
+      <webElementGuid>2921d84f-d1fd-4465-a014-6a3ad08cdc17</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

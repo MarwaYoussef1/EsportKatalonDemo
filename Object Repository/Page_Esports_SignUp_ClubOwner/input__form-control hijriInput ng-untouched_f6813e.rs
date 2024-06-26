@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input__form-control hijriInput ng-untouched_f6813e</name>
+   <tag></tag>
+   <elementGuidId>2281f9fb-c8ef-4762-a54f-9db1f9b30a2b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-control.hijriInput.ng-untouched.ng-pristine.ng-invalid</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-hijri-datepicker-content/div/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;d/M/yyyy&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>3ba5a452-d3d1-4b5e-9079-f1e2081d48c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control hijriInput ng-untouched ng-pristine ng-invalid</value>
+      <webElementGuid>6f7dc4a8-1af7-4145-830f-745aaaecd987</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>d/M/yyyy</value>
+      <webElementGuid>65e53470-6cf8-48d3-895d-79124ac370fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;default-theme&quot;]/app-root[1]/app-uesr-layout[1]/div[@class=&quot;user-body&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;content row&quot;]/div[@class=&quot;col-sm-12 col-md-6 col-xxl-5 content-form&quot;]/div[@class=&quot;body-form&quot;]/app-club-owner-sign-up[1]/div[1]/div[@class=&quot;row&quot;]/div[@class=&quot;form-container&quot;]/form[@class=&quot;ng-invalid ng-touched ng-dirty&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-6 col-sm-12&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;hijri-date&quot;]/app-hijri-datepicker[1]/app-hijri-datepicker-content[1]/div[1]/input[@class=&quot;form-control hijriInput ng-untouched ng-pristine ng-invalid&quot;]</value>
+      <webElementGuid>cbb64f1c-d578-44ca-9493-9ecab764db19</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-hijri-datepicker-content/div/input</value>
+      <webElementGuid>eedb67dd-cc6c-49ba-966d-5a82c68bc981</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'd/M/yyyy']</value>
+      <webElementGuid>9faf9d7e-376a-4461-b37f-425d1009b2b2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

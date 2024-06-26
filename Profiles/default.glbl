@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\\Uploads'</initValue>
+      <name>UPLOAD_FILES_DIR</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'@mailinator.com'</initValue>
+      <name>DOMAIN_MAIL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.mailinator.com/v4/public/inboxes.jsp?to='</initValue>
+      <name>FAKE_MAIL_URL</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

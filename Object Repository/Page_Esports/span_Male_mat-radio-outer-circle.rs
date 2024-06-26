@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Male_mat-radio-outer-circle</name>
+   <tag></tag>
+   <elementGuidId>3105d205-752e-4e68-afc0-6b6c6bf8ed8f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-radio-button[@id='mat-radio-9']/label/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-radio-9 > label.mat-radio-label > span.mat-radio-container > span.mat-radio-outer-circle</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#mat-radio-9 > .mat-radio-label > .mat-radio-container > .mat-radio-outer-circle</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9a2043b6-60fe-42bb-b8c3-2126efbd5c21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-radio-outer-circle</value>
+      <webElementGuid>8bd37242-de50-49c8-9fa2-96153a931b39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-radio-9&quot;)/label[@class=&quot;mat-radio-label&quot;]/span[@class=&quot;mat-radio-container&quot;]/span[@class=&quot;mat-radio-outer-circle&quot;]</value>
+      <webElementGuid>ba11b44a-ca59-47d8-964f-83967b9e61bc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-radio-button[@id='mat-radio-9']/label/span/span</value>
+      <webElementGuid>9cef19a2-3c5a-4d8e-a3f2-13db6353353f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div[4]/div/mat-radio-group/mat-radio-button[2]/label/span/span</value>
+      <webElementGuid>8652a575-b50a-4cdb-9b75-b14eab604814</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
