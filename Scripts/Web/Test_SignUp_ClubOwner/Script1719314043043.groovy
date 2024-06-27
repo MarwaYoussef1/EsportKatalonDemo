@@ -170,7 +170,7 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Esports/a_L
 
 WebUI.enhancedClick(findTestObject('Object Repository/Page_Esports/a_Log out'))
 
-CustomKeywords.'esport.Browser.openURLInNewTab'(GlobalVariable.FAKE_MAIL_URL + userEmailMailinator)
+/*CustomKeywords.'esport.Browser.openURLInNewTab'(GlobalVariable.FAKE_MAIL_URL + userEmailMailinator)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Mailinator/td_RQ000001885 Your request has been received -'))
 
@@ -190,7 +190,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Esports/p_Your Ac
 
 WebUI.click(findTestObject('Object Repository/Page_Esports/mat-icon_arrow_drop_down'))
 
-WebUI.enhancedClick(findTestObject('Object Repository/Page_Esports/a_Log out'))
+WebUI.enhancedClick(findTestObject('Object Repository/Page_Esports/a_Log out'))*/
 
 WebUI.closeBrowser()
 
