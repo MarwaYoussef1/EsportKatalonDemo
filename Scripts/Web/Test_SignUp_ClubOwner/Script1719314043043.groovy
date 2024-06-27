@@ -24,13 +24,14 @@ import java.nio.file.Paths as Paths
 //def userDir = System.getProperty('user.dir')
 
 
-String filePath = RunConfiguration.getProjectDir()
-def relativePath = 'SignUpPdf.pdf'
-Path KatProjectPath = Paths.get(RunConfiguration.getProjectDir())
-Path katTestFile = KatProjectPath.resolve('Data Files').resolve(relativePath)
-println(filePath)
-println('KatProjectFilePath: ' + KatProjectPath.toString())
-println('KatTestFile: ' + katTestFile.toString())
+String relativePath = 'Uploads/SignUpPdf.pdf'
+Path projectPath = Paths.get(RunConfiguration.getProjectDir())
+Path katTestFile = projectPath.resolve('Data Files').resolve(relativePath)
+File file = new File(katTestFile.toString())
+def found =file.exists()
+def katTestFilePath=katTestFile.toString()
+println "katTestFile : ${katTestFilePath}"
+println "Files.exists(katTestFile) : ${found}"
 
 def userName = CustomKeywords.'esport.Utils.randomString'(5, 'String')
 
@@ -83,7 +84,7 @@ WebUI.click(findTestObject('Object Repository/Page_Esports_SignUp_ClubOwner/div_
 
 WebUI.setText(findTestObject('Object Repository/Page_Esports_SignUp_ClubOwner/input__new-nationalId'), nationalId)
 
-WebUI.uploadFile(findTestObject('Page_Esports_SignUp_ClubOwner/input_nationalIdFile'),katTestFile.toString())
+WebUI.uploadFile(findTestObject('Page_Esports_SignUp_ClubOwner/input_nationalIdFile'),katTestFilePath)
 
 //WebUI.uploadFile(findTestObject('Page_Esports_SignUp_ClubOwner/input_nationalIdFile'), (userDir + GlobalVariable.UPLOAD_FILES_DIR) + 
    // national_id_file_name)
