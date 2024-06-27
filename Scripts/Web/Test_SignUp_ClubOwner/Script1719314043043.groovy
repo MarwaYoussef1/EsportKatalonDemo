@@ -20,6 +20,7 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import java.nio.file.Path as Path
 import java.nio.file.Paths as Paths
+import java.nio.file.*
 
 //def userDir = System.getProperty('user.dir')
 
@@ -27,14 +28,14 @@ import java.nio.file.Paths as Paths
 String relativePath = 'Uploads/SignUpPdf.pdf'
 String relativePathLogo = 'Uploads/content.png'
 Path projectPath = Paths.get(RunConfiguration.getProjectDir())
-Path katTestFile = projectPath.resolve('Data Files').resolve(relativePath)//content.png
+Path katTestFile = projectPath.resolve('Data Files').resolve(relativePath)
 Path KatTestLogo=projectPath.resolve('Data Files').resolve(relativePathLogo)
-File file = new File(katTestFile.toString())
+File filetest = new File(katTestFile.toString())
 File fileLogo = new File(KatTestLogo.toString())
-def found =file.exists()
+def found =filetest.exists()
 def foundLogo =fileLogo.exists()
-def katTestFilePath=katTestFile.toString()
-def katTestFilePathLogo=KatTestLogo.toString()
+def katTestFilePath=filetest.getAbsolutePath()
+def katTestFilePathLogo=fileLogo.getAbsolutePath()
 println "katTestFile : ${katTestFilePath}"
 println "Files.exists(katTestFile) : ${found}"
 println "katTestFileLogo : ${katTestFilePathLogo}"
