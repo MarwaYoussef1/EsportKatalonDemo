@@ -17,8 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import esport.Utils as Utils
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import java.nio.file.Path as Path
+import java.nio.file.Paths as Paths
 
-def userDir = System.getProperty('user.dir')
+//def userDir = System.getProperty('user.dir')
+
+
+String filePath = RunConfiguration.getProjectDir()
+def relativePath = 'SignUpPdf.pdf'
+Path KatProjectPath = Paths.get(RunConfiguration.getProjectDir())
+Path katTestFile = KatProjectPath.resolve('Uploads').resolve(relativePath)
+println(filePath)
+println('KatProjectFilePath: ' + KatProjectPath.toString())
+println('KatTestFile: ' + katTestFile.toString())
 
 def userName = CustomKeywords.'esport.Utils.randomString'(5, 'String')
 
@@ -93,9 +105,10 @@ WebUI.selectOptionByValue(findTestObject('Page_Esports_SignUp_ClubOwner/select_1
     '1446', true)
 
 WebUI.click(findTestObject('Page_Esports_SignUp_ClubOwner/div_22'))
+WebUI.uploadFile(findTestObject('Page_Esports_SignUp_ClubOwner/input_crFile',),katTestFile.toString()) 
 
-WebUI.uploadFile(findTestObject('Page_Esports_SignUp_ClubOwner/input_crFile'), (userDir + GlobalVariable.UPLOAD_FILES_DIR) + 
-    cr_file_name)
+//WebUI.uploadFile(findTestObject('Page_Esports_SignUp_ClubOwner/input_crFile'), (userDir + GlobalVariable.UPLOAD_FILES_DIR) + 
+ //   cr_file_name)
 
 WebUI.setText(findTestObject('Object Repository/Page_Esports_SignUp_ClubOwner/input__new-clubIban'), iban)
 
@@ -165,4 +178,8 @@ WebUI.click(findTestObject('Object Repository/Page_Esports/mat-icon_arrow_drop_d
 WebUI.enhancedClick(findTestObject('Object Repository/Page_Esports/a_Log out'))
 
 WebUI.closeBrowser()
+
+
+
+
 

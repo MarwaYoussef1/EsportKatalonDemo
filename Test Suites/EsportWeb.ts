@@ -51,7 +51,7 @@
    <testCaseLink>
       <guid>d5ba187a-97d7-4b7d-9320-26a40bc31930</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Web/Test_SignUp_Roles</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>

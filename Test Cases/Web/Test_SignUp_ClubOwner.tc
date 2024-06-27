@@ -36,28 +36,28 @@
       <variableId>8bf4cad7-ce6c-451d-a889-b56573828188</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'\\SignUpPdf.pdf'</defaultValue>
+      <defaultValue>'SignUpPdf.pdf'</defaultValue>
       <description></description>
       <id>eec58ce4-8e1e-405b-8e13-2b04f75da8bb</id>
       <masked>false</masked>
       <name>national_id_file_name</name>
    </variable>
    <variable>
-      <defaultValue>'\\content.png'</defaultValue>
+      <defaultValue>'/content.png'</defaultValue>
       <description></description>
       <id>ff7ba0f4-899c-463f-aecd-6f53351efd99</id>
       <masked>false</masked>
       <name>club_logo_file_name</name>
    </variable>
    <variable>
-      <defaultValue>'\\SignUpPdf.pdf'</defaultValue>
+      <defaultValue>'/SignUpPdf.pdf'</defaultValue>
       <description></description>
       <id>bf0b20b4-bb5a-4998-8597-1303be4d5c99</id>
       <masked>false</masked>
       <name>cr_file_name</name>
    </variable>
    <variable>
-      <defaultValue>'\\SignUpPdf.pdf'</defaultValue>
+      <defaultValue>'/SignUpPdf.pdf'</defaultValue>
       <description></description>
       <id>53e5633b-b8de-4447-b80f-55fc18d245fb</id>
       <masked>false</masked>
