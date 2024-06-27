@@ -25,13 +25,20 @@ import java.nio.file.Paths as Paths
 
 
 String relativePath = 'Uploads/SignUpPdf.pdf'
+String relativePathLogo = 'Uploads/content.png'
 Path projectPath = Paths.get(RunConfiguration.getProjectDir())
-Path katTestFile = projectPath.resolve('Data Files').resolve(relativePath)
+Path katTestFile = projectPath.resolve('Data Files').resolve(relativePath)//content.png
+Path KatTestLogo=projectPath.resolve('Data Files').resolve(relativePathLogo)
 File file = new File(katTestFile.toString())
+File fileLogo = new File(KatTestLogo.toString())
 def found =file.exists()
+def foundLogo =fileLogo.exists()
 def katTestFilePath=katTestFile.toString()
+def katTestFilePathLogo=KatTestLogo.toString()
 println "katTestFile : ${katTestFilePath}"
 println "Files.exists(katTestFile) : ${found}"
+println "katTestFileLogo : ${katTestFilePathLogo}"
+println "Files.exists(katTestFileLogo) : ${foundLogo}"
 
 def userName = CustomKeywords.'esport.Utils.randomString'(5, 'String')
 
@@ -95,6 +102,8 @@ WebUI.setText(findTestObject('Object Repository/Page_Esports_SignUp_ClubOwner/in
 
 WebUI.setText(findTestObject('Object Repository/Page_Esports_SignUp_ClubOwner/input__clubNameAr'), clubNameAr)
 
+WebUI.uploadFile(findTestObject('Page_Esports_SignUp_ClubOwner/club_Logo'),katTestFilePathLogo)
+
 //WebUI.uploadFile(findTestObject('Page_Esports_SignUp_ClubOwner/club_Logo'), (userDir + GlobalVariable.UPLOAD_FILES_DIR) + 
     //club_logo_file_name)
 
@@ -109,11 +118,14 @@ WebUI.selectOptionByValue(findTestObject('Page_Esports_SignUp_ClubOwner/select_1
 
 WebUI.click(findTestObject('Page_Esports_SignUp_ClubOwner/div_22'))
 
+WebUI.uploadFile(findTestObject('Page_Esports_SignUp_ClubOwner/input_crFile'), katTestFilePath)
 
 //WebUI.uploadFile(findTestObject('Page_Esports_SignUp_ClubOwner/input_crFile'), (userDir + GlobalVariable.UPLOAD_FILES_DIR) + 
 // cr_file_name)
 
 WebUI.setText(findTestObject('Object Repository/Page_Esports_SignUp_ClubOwner/input__new-clubIban'), iban)
+
+WebUI.uploadFile(findTestObject('Page_Esports_SignUp_ClubOwner/input_clubIbanFile'), katTestFilePath)
 
 //WebUI.uploadFile(findTestObject('Page_Esports_SignUp_ClubOwner/input_clubIbanFile'), (userDir + GlobalVariable.UPLOAD_FILES_DIR) + 
 //    club_iban_file_name)
