@@ -27,7 +27,7 @@ import java.nio.file.Paths as Paths
 String filePath = RunConfiguration.getProjectDir()
 def relativePath = 'SignUpPdf.pdf'
 Path KatProjectPath = Paths.get(RunConfiguration.getProjectDir())
-Path katTestFile = KatProjectPath.resolve('Uploads').resolve(relativePath)
+Path katTestFile = KatProjectPath.resolve('Data Files').resolve(relativePath)
 println(filePath)
 println('KatProjectFilePath: ' + KatProjectPath.toString())
 println('KatTestFile: ' + katTestFile.toString())
