@@ -29,7 +29,6 @@ Path katTestFile = projectPath.resolve('Data Files').resolve(relativePath)
 File file = new File(katTestFile.toString())
 def found =file.exists()
 def katTestFilePath=katTestFile.toString()
-
 println "katTestFile : ${katTestFilePath}"
 println "Files.exists(katTestFile) : ${found}"
 
