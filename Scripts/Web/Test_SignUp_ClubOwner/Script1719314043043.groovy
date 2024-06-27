@@ -83,8 +83,10 @@ WebUI.click(findTestObject('Object Repository/Page_Esports_SignUp_ClubOwner/div_
 
 WebUI.setText(findTestObject('Object Repository/Page_Esports_SignUp_ClubOwner/input__new-nationalId'), nationalId)
 
-WebUI.uploadFile(findTestObject('Page_Esports_SignUp_ClubOwner/input_nationalIdFile'), (userDir + GlobalVariable.UPLOAD_FILES_DIR) + 
-    national_id_file_name)
+WebUI.uploadFile(findTestObject('Page_Esports_SignUp_ClubOwner/input_nationalIdFile'),katTestFile.toString())
+
+//WebUI.uploadFile(findTestObject('Page_Esports_SignUp_ClubOwner/input_nationalIdFile'), (userDir + GlobalVariable.UPLOAD_FILES_DIR) + 
+   // national_id_file_name)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Esports_SignUp_ClubOwner/div_SignUpPdf.pdf'))
 
@@ -92,8 +94,8 @@ WebUI.setText(findTestObject('Object Repository/Page_Esports_SignUp_ClubOwner/in
 
 WebUI.setText(findTestObject('Object Repository/Page_Esports_SignUp_ClubOwner/input__clubNameAr'), clubNameAr)
 
-WebUI.uploadFile(findTestObject('Page_Esports_SignUp_ClubOwner/club_Logo'), (userDir + GlobalVariable.UPLOAD_FILES_DIR) + 
-    club_logo_file_name)
+//WebUI.uploadFile(findTestObject('Page_Esports_SignUp_ClubOwner/club_Logo'), (userDir + GlobalVariable.UPLOAD_FILES_DIR) + 
+    //club_logo_file_name)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Esports_SignUp_ClubOwner/div_jpgImage.jpg'))
 
@@ -105,15 +107,15 @@ WebUI.selectOptionByValue(findTestObject('Page_Esports_SignUp_ClubOwner/select_1
     '1446', true)
 
 WebUI.click(findTestObject('Page_Esports_SignUp_ClubOwner/div_22'))
-WebUI.uploadFile(findTestObject('Page_Esports_SignUp_ClubOwner/input_crFile',),katTestFile.toString()) 
+
 
 //WebUI.uploadFile(findTestObject('Page_Esports_SignUp_ClubOwner/input_crFile'), (userDir + GlobalVariable.UPLOAD_FILES_DIR) + 
- //   cr_file_name)
+// cr_file_name)
 
 WebUI.setText(findTestObject('Object Repository/Page_Esports_SignUp_ClubOwner/input__new-clubIban'), iban)
 
-WebUI.uploadFile(findTestObject('Page_Esports_SignUp_ClubOwner/input_clubIbanFile'), (userDir + GlobalVariable.UPLOAD_FILES_DIR) + 
-    club_iban_file_name)
+//WebUI.uploadFile(findTestObject('Page_Esports_SignUp_ClubOwner/input_clubIbanFile'), (userDir + GlobalVariable.UPLOAD_FILES_DIR) + 
+//    club_iban_file_name)
 
 WebUI.setText(findTestObject('Object Repository/Page_Esports_SignUp_ClubOwner/input__new-password'), user_password)
 
