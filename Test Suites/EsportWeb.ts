@@ -48,4 +48,36 @@
          <variableId>8bf4cad7-ce6c-451d-a889-b56573828188</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>708d5171-6b16-433c-883b-2002cb5c6d34</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web/Test_SignUp_Roles</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>da4a5313-578d-4a70-9408-b15ee0a9a7e9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3ae64bca-96d6-4b5e-a880-b503b38ecec1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f61b87bc-148c-456e-b303-373d747c9f75</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e3391fda-9000-437e-a02b-e4a32a89811f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web/TestAddClan</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

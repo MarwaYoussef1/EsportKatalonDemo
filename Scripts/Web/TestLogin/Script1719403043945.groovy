@@ -17,22 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://uat.saudiesports.sa/')
+WebUI.openBrowser(GlobalVariable.HOME_URL)
 
 WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/Page_Esports/button_Login'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Sign in to - Saudi Esports Federation/input__email'), 'Auto_club@mailinator.com')
+WebUI.setText(findTestObject('Object Repository/Page_Sign in to - Saudi Esports Federation/input__email'), userEmail)
 
-WebUI.setText(findTestObject('Object Repository/Page_Sign in to - Saudi Esports Federation/input__password'), 'P@ssw0rd')
+WebUI.setText(findTestObject('Object Repository/Page_Sign in to - Saudi Esports Federation/input__password'), userPassword)
 
 WebUI.click(findTestObject('Object Repository/Page_Sign in to - Saudi Esports Federation/input__login'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Esports/div_Account_Name'))
 
-WebUI.click(findTestObject('Object Repository/Page_Esports/mat-icon_arrow_drop_down'))
-
-WebUI.click(findTestObject('Object Repository/Page_Esports/a_Log out'))
-
-WebUI.closeBrowser()

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>default</name>
+   <name>Staging</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'/Uploads'</initValue>
@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://uat.saudiesports.sa/'</initValue>
+      <initValue>'https://stage.saudiesports.sa/'</initValue>
       <name>HOME_URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

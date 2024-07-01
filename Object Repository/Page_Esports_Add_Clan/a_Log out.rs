@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Log out</name>
    <tag></tag>
-   <elementGuidId>e0e1f659-b3c1-4532-b8de-9c559b7ddc57</elementGuidId>
+   <elementGuidId>445a1a41-2fa3-4595-9343-f8ff8b2f7181</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>34f1e2f6-310b-47e2-a3de-87fee4d12c34</webElementGuid>
+      <webElementGuid>8f0739bd-5cc5-48c0-9aa7-ca9458d05028</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Log out </value>
-      <webElementGuid>4969864c-e0be-4831-bdf9-d5a5574fdb8a</webElementGuid>
+      <webElementGuid>7c4ddd56-19dd-4588-a42c-c8d048a13747</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarSupportedContent&quot;)/ul[@class=&quot;navbar-nav&quot;]/li[2]/div[@class=&quot;dropdown ng-star-inserted&quot;]/ul[@class=&quot;dropdown-content px-0 list-unstyled&quot;]/li[2]/a[1]</value>
-      <webElementGuid>fdc7e7d0-f501-41bc-ab28-8b64059e6f89</webElementGuid>
+      <webElementGuid>2207fa72-8fe5-4323-9d4d-a810bfc9213e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarSupportedContent']/ul[2]/li[2]/div/ul/li[2]/a</value>
-      <webElementGuid>c22309e2-8cb5-430a-a9b9-e1563ac09863</webElementGuid>
+      <webElementGuid>f7145fc7-b2c0-4d53-beb0-1111c8530d09</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Log out')]</value>
-      <webElementGuid>b79fa7fa-2b1e-40d0-a21c-4fabe2215ff9</webElementGuid>
+      <webElementGuid>2f9705b6-7f69-4c12-9320-5a6501c37fb2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Profile'])[1]/following::a[1]</value>
-      <webElementGuid>dc14656d-9ad4-4fc0-ae7c-136d7506de64</webElementGuid>
+      <webElementGuid>e7e60487-77cd-4ff4-bc6c-a803f0304a53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Player'])[1]/following::a[2]</value>
-      <webElementGuid>25107da1-471b-4529-a5ce-c0826865e56c</webElementGuid>
+      <webElementGuid>3e419922-ec2a-4004-a9ea-c84e6bfc7823</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Clans Management'])[1]/preceding::a[1]</value>
-      <webElementGuid>f5a34b26-817e-4cbb-a81c-bd42b96bd1f4</webElementGuid>
+      <webElementGuid>f635a121-16f7-43d9-b513-e8017d1d0487</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='+ Add New Clan'])[1]/preceding::a[1]</value>
-      <webElementGuid>4d1a3cf9-0f67-473d-b182-073bdb46ee57</webElementGuid>
+      <webElementGuid>c73cba6e-73a2-4bcf-a5db-a08f7446d4e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Log out']/parent::*</value>
-      <webElementGuid>1f7b9dc9-2288-4417-ac8f-bc01f29d87e3</webElementGuid>
+      <webElementGuid>c76d9ade-c5a0-45e6-9af6-d1956ff9ef69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/a</value>
-      <webElementGuid>d0089859-ac06-4e61-9726-5b370b8bf729</webElementGuid>
+      <webElementGuid>6d2a32d8-3732-4522-8f18-03a447b3dc4b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[(text() = ' Log out ' or . = ' Log out ')]</value>
-      <webElementGuid>92bcdeea-ef7f-4ff7-9c20-58ff7e18576c</webElementGuid>
+      <webElementGuid>b4793b36-5d95-4802-b0d3-3b12fb27f66a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

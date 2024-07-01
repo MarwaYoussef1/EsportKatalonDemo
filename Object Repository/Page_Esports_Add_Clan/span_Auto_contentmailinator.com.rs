@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Auto_contentmailinator.com</name>
+   <tag></tag>
+   <elementGuidId>1f7360b7-a13b-4153-a5f5-6001d79be088</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.mail</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[2]/preceding::span[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Auto_content@mailinator.com&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f60fb3c2-b692-432a-829e-9c7c3d5cffb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mail</value>
+      <webElementGuid>7109c8e9-f56c-4580-b076-c9bf96ba78a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Auto_content@mailinator.com </value>
+      <webElementGuid>163a3b4a-60a0-4897-8d5c-ee1a0075c449</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-0&quot;)/app-clan-members-modal[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ng-touched ng-dirty ng-submitted ng-invalid&quot;]/div[@class=&quot;mat-dialog-content&quot;]/div[@class=&quot;form-group mb-0&quot;]/div[@class=&quot;email-chips d-flex justify-content-start align-items-center flex-wrap ng-star-inserted&quot;]/div[@class=&quot;email-chip d-flex justify-content-center align-items-start ng-star-inserted&quot;]/div[@class=&quot;chip-text d-flex justify-content-center align-items-center&quot;]/div[@class=&quot;chip-content d-flex justify-content-start align-items-center flex-wrap&quot;]/span[@class=&quot;mail&quot;]</value>
+      <webElementGuid>445df239-b091-4365-a978-c0cb4e6724a1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-0']/app-clan-members-modal/form/div[2]/div[3]/div/div/div/div/span</value>
+      <webElementGuid>8746160d-4706-4d3b-af62-362f074685a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invitation list'])[1]/following::span[1]</value>
+      <webElementGuid>14eadb09-e95c-4723-a635-2472bc2b6c02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add'])[1]/following::span[3]</value>
+      <webElementGuid>6bb3bd88-bbe3-4935-860d-070d30f8be41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Content Creator'])[2]/preceding::span[1]</value>
+      <webElementGuid>216afc0e-f3aa-4628-8202-43e21ed2fc59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[2]/preceding::span[5]</value>
+      <webElementGuid>03853ce4-c5b8-4653-8627-9ab245df5e86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Auto_content@mailinator.com']/parent::*</value>
+      <webElementGuid>b3ea5a21-ef91-4e8f-a96a-b9b689a5cd74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/span</value>
+      <webElementGuid>b256088d-05fa-4027-8ae8-81055bed8938</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Auto_content@mailinator.com ' or . = ' Auto_content@mailinator.com ')]</value>
+      <webElementGuid>a3ff4f17-37a1-4494-880a-d0849184caf6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

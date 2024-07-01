@@ -3,7 +3,7 @@
    <description></description>
    <name>mat-icon_arrow_drop_down</name>
    <tag></tag>
-   <elementGuidId>c92a3837-40f4-4c8f-89ce-9bd31ea6298c</elementGuidId>
+   <elementGuidId>fb05720d-8c8c-410c-9d3a-ba7b5a89dde2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-icon</value>
-      <webElementGuid>2f2ca2f0-e0f6-4577-b908-2916d31f12c7</webElementGuid>
+      <webElementGuid>506791b5-1406-42f3-ab37-2ef9e5b186e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>role</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>014b993b-2308-49f5-a0a4-73092a812dfc</webElementGuid>
+      <webElementGuid>692c2476-d1f5-4760-8234-f502191f25d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color</value>
-      <webElementGuid>ebc37e98-0ea9-4527-b9c9-88ef38d763d2</webElementGuid>
+      <webElementGuid>e0cbc714-684f-44fc-ab87-4d87b8024939</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>21007317-f671-4150-a1c2-c789b0780242</webElementGuid>
+      <webElementGuid>f7727f5c-f3d4-4b91-a9f0-8bc618ba4de9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>data-mat-icon-type</name>
       <type>Main</type>
       <value>font</value>
-      <webElementGuid>357f29bf-7054-4441-8e9b-2ee2b3b4c69f</webElementGuid>
+      <webElementGuid>f9e82ddf-149c-47d2-a4eb-00b445bf18a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>text</name>
       <type>Main</type>
       <value>arrow_drop_down</value>
-      <webElementGuid>57c89b05-ac04-4bf9-8028-3be83e970285</webElementGuid>
+      <webElementGuid>15934ce8-8384-4fd9-b713-e5f789dfab7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarSupportedContent&quot;)/ul[@class=&quot;navbar-nav&quot;]/li[2]/div[@class=&quot;dropdown ng-star-inserted&quot;]/button[@class=&quot;dropbtn d-flex align-items-center&quot;]/div[@class=&quot;d-flex align-items-start&quot;]/mat-icon[@class=&quot;mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color&quot;]</value>
-      <webElementGuid>f3ac6db7-3c5d-4b69-a4d3-32495e63be2a</webElementGuid>
+      <webElementGuid>63c92e11-7a35-4501-989c-285b045fa5f2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarSupportedContent']/ul[2]/li[2]/div/button/div/mat-icon</value>
-      <webElementGuid>a6f24a43-c837-4f17-8bd5-63106b7744a2</webElementGuid>
+      <webElementGuid>71f79e5f-8a58-448c-bb2a-b68cb40d9b1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Player'])[1]/following::mat-icon[1]</value>
-      <webElementGuid>d3e07fc9-00c7-4760-b0cc-34102ef6f596</webElementGuid>
+      <webElementGuid>2703f754-b5cc-40c8-953f-63db47e2e1f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='automation pla..'])[1]/following::mat-icon[1]</value>
-      <webElementGuid>ee0e9d49-c0b0-48ed-93d9-2f21622331d9</webElementGuid>
+      <webElementGuid>2570150c-360e-48d6-af2e-5aeabc06d3b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Profile'])[1]/preceding::mat-icon[1]</value>
-      <webElementGuid>8e8d0145-6cca-48d4-ab74-858762d14d42</webElementGuid>
+      <webElementGuid>4e8b3f81-5d51-495f-a820-5ba3188081d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/preceding::mat-icon[1]</value>
-      <webElementGuid>c024eb0f-21fb-497f-b82a-4ac806d87f15</webElementGuid>
+      <webElementGuid>d1c3981b-91a5-4654-9436-17a82a4e7446</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='arrow_drop_down']/parent::*</value>
-      <webElementGuid>b8d6e294-4d00-471b-983b-2a3c5c90fde9</webElementGuid>
+      <webElementGuid>650d2085-63a7-40ae-8c57-6c1f6422b90c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/mat-icon</value>
-      <webElementGuid>2c001fcb-64b6-468f-96ad-c8a50e7cf7a7</webElementGuid>
+      <webElementGuid>02af6c49-810e-467c-9800-3bb41d119f79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +141,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-icon[(text() = 'arrow_drop_down' or . = 'arrow_drop_down')]</value>
-      <webElementGuid>e8561b98-aea4-46df-a0e9-d83cc1eb849a</webElementGuid>
+      <webElementGuid>ea3a7224-96a0-4de7-b8d8-dad77816a202</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

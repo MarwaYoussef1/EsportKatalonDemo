@@ -49,7 +49,7 @@ WebUI.click(findTestObject('Object Repository/Page_Esports/button_Continue'))
 
 WebUI.click(findTestObject('Object Repository/Page_Esports/span_Choose Nationality_ng-arrow-wrapper'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Esports/input_text'), 'sau')
+WebUI.setText(findTestObject('Object Repository/Page_Esports/input_Clans_form-control ng-untouched ng-pr_6c0b8e'), 'sau')
 
 WebUI.click(findTestObject('Object Repository/Page_Esports/div_Saudi'))
 

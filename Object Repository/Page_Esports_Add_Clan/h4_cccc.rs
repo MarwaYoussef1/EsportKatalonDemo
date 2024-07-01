@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h4_cccc</name>
+   <tag></tag>
+   <elementGuidId>96b63d8e-5352-4548-a725-da5770000a5f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h4.clan-name.text-1-line.mb-3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Clans'])[2]/following::h4[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;cccc&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>2781625c-2e21-4cd8-9a10-a687bac6104c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>clan-name text-1-line mb-3</value>
+      <webElementGuid>1d90f5ed-85e8-4be2-92cd-031ef55a3ca9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>cccc</value>
+      <webElementGuid>eb27e0e0-4708-4085-b496-98e72023373c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>cccc</value>
+      <webElementGuid>f1683885-4a95-4f21-b6cb-b5bc62b9bc98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;default-theme&quot;]/app-root[1]/app-auth-layout-lg[@class=&quot;default-theme ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/app-clans[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;mangement-container&quot;]/app-discover-clans[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;page-container&quot;]/div[@class=&quot;row ng-star-inserted&quot;]/div[@class=&quot;card clan-card mb-4 col-sm-12 col-md-6 col-lg-4 col-xl-3 ng-star-inserted&quot;]/div[@class=&quot;my-card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;clan-info&quot;]/div[@class=&quot;overflow-hidden&quot;]/h4[@class=&quot;clan-name text-1-line mb-3&quot;]</value>
+      <webElementGuid>9685d6da-7970-4b92-ac1e-4c52d635f1d1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clans'])[2]/following::h4[1]</value>
+      <webElementGuid>e7d82dbd-234d-4545-90f7-9830627f84b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Archived Clans'])[1]/following::h4[1]</value>
+      <webElementGuid>12b09846-ca53-46ac-87db-5b20750ea35e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apex Legends'])[1]/preceding::h4[1]</value>
+      <webElementGuid>a93b9b58-ec45-4e26-beb9-4853e56db91a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='cccc']/parent::*</value>
+      <webElementGuid>c6b2addf-c47b-47e3-bb7b-f00587597519</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h4</value>
+      <webElementGuid>1bbde9b9-72e4-4db4-841a-209efcf5c2a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[@title = 'cccc' and (text() = 'cccc' or . = 'cccc')]</value>
+      <webElementGuid>f5226843-4986-45f1-b424-68af790e5736</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
