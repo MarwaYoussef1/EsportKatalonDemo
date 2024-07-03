@@ -44,4 +44,9 @@
       <initValue>'P@ssw0rd'</initValue>
       <name>PLAYER_PASSWORD</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>API_ACCESS_TOKEN</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Upload file -clubLogo</name>
+   <tag></tag>
+   <elementGuidId>d8c3c731-7152-41d6-b63e-2daf2f19a47d</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;parameters&quot;: [
+    {
+      &quot;name&quot;: &quot;file&quot;,
+      &quot;type&quot;: &quot;file&quot;,
+      &quot;contentType&quot;: &quot;&quot;
+    },
+    {
+      &quot;name&quot;: &quot;file-usage&quot;,
+      &quot;value&quot;: &quot;clubLogo&quot;,
+      &quot;type&quot;: &quot;text&quot;,
+      &quot;contentType&quot;: &quot;&quot;
+    }
+  ]
+}</httpBodyContent>
+   <httpBodyType>form-data</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>authority</name>
+      <type>Main</type>
+      <value>stage.saudiesports.sa</value>
+      <webElementGuid>9152dc49-787a-416a-9a1a-f1724757cce7</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>5deec85f-60eb-40ad-855c-583c3b72abe3</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>accept-language</name>
+      <type>Main</type>
+      <value>en-GB,en;q=0.9</value>
+      <webElementGuid>3bd914ce-574d-4a1b-a05d-31db130492ab</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>entity</name>
+      <type>Main</type>
+      <value>user</value>
+      <webElementGuid>ab0229b4-a140-4c0e-94a2-35158c8c8ada</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>origin</name>
+      <type>Main</type>
+      <value>https://stage.saudiesports.sa</value>
+      <webElementGuid>dd94fba3-3c2b-4218-a2f9-265de27df497</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>referer</name>
+      <type>Main</type>
+      <value>https://stage.saudiesports.sa/user/club-sign?lang=en</value>
+      <webElementGuid>1dfd155e-8510-4b3c-a4da-cff2a5b45966</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sec-ch-ua</name>
+      <type>Main</type>
+      <value>&quot;Chromium&quot;;v=&quot;110&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;110&quot;</value>
+      <webElementGuid>11c46baa-27f2-4d6b-bd7c-791fa1ec1d04</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sec-ch-ua-mobile</name>
+      <type>Main</type>
+      <value>?0</value>
+      <webElementGuid>dc45bc67-9938-4462-9ca0-19ebe1c5b0c1</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sec-ch-ua-platform</name>
+      <type>Main</type>
+      <value>&quot;Windows&quot;</value>
+      <webElementGuid>9dfe4315-08fa-4d91-b456-753e1f87d04b</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sec-fetch-dest</name>
+      <type>Main</type>
+      <value>empty</value>
+      <webElementGuid>df1e571f-3baf-4565-b8b8-d46673db3bdb</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sec-fetch-mode</name>
+      <type>Main</type>
+      <value>cors</value>
+      <webElementGuid>37712d34-8cc6-4778-9a18-cba800746227</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sec-fetch-site</name>
+      <type>Main</type>
+      <value>same-origin</value>
+      <webElementGuid>6995b9e4-936d-404c-aa57-fab031bef931</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>user-agent</name>
+      <type>Main</type>
+      <value>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36</value>
+      <webElementGuid>0c76b80e-1f72-4e87-a079-1f51fbe5022f</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>9.4.0</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>https://stage.saudiesports.sa/api/team-club/v1/public/file/upload/</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

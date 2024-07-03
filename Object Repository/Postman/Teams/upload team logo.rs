@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>upload team logo</name>
+   <tag></tag>
+   <elementGuidId>2d822821-2eec-4c0b-892e-6f81f86ed11c</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;parameters&quot;: [
+    {
+      &quot;name&quot;: &quot;file&quot;,
+      &quot;type&quot;: &quot;file&quot;,
+      &quot;contentType&quot;: &quot;&quot;
+    },
+    {
+      &quot;name&quot;: &quot;file-usage&quot;,
+      &quot;value&quot;: &quot;clubLogo&quot;,
+      &quot;type&quot;: &quot;text&quot;,
+      &quot;contentType&quot;: &quot;&quot;
+    }
+  ]
+}</httpBodyContent>
+   <httpBodyType>form-data</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>75fd05cd-6843-45f9-9d76-6f43fae90f24</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept-Language</name>
+      <type>Main</type>
+      <value>en-GB,en;q=0.9,ar-EG;q=0.8,ar;q=0.7,en-US;q=0.6</value>
+      <webElementGuid>394991f2-5ca0-4ce4-8715-20d2978ac85f</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ5dzdmVHQzQTc3QmFLWjVTMlp4czNBeEZybEZ2a3JVNG1fMkI3WjQwX2s0In0.eyJleHAiOjE2ODg2NzgxNTIsImlhdCI6MTY4ODY0OTM1MiwiYXV0aF90aW1lIjoxNjg4NjQ5MzUwLCJqdGkiOiI4NDFlMmMwNy0zZTk0LTQ5OWItOGZjNC00Nzc0YzY2MzVmZGQiLCJpc3MiOiJodHRwczovL3VhdC5zYXVkaWVzcG9ydHMuc2EvYXV0aC9yZWFsbXMvY3VzdF9lc3BvcnRzLmNvbSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJmZWNhN2M4Zi0xYWFlLTRiZDAtOGFmYi00YmE0YmZhZGE3ZTMiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJXRUIiLCJub25jZSI6IjY5ZjlhZmJlLWFiMGYtNGM1My04YjRhLTRmYjI2NjczNjVhZCIsInNlc3Npb25fc3RhdGUiOiIxZjMyNzBiZS0zNTU2LTQyOTEtYmRmMS02YTU4NjNmZjc1MzYiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbIioiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImRlZmF1bHQtcm9sZXMtY3VzdF9lc3BvcnRzLmNvbSIsIkNfVF9VQVJfTyIsIkNfVF9BX08iLCJDX1RfQVJfTyIsIkNfVF9NVEFfTyIsIkNfVF9FX08iLCJDX0NMX0VNWV9PIiwiQ19DTF9DQUxfTyIsIkNfVF9EU19PIiwib2ZmbGluZV9hY2Nlc3MiLCJDX0NMX0FTX08iLCJDX0NMX1ZNWV9PIiwiQ19NRV9EU19PIiwidW1hX2F1dGhvcml6YXRpb24iLCJDX0NMX0RTX08iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIiwic2lkIjoiMWYzMjcwYmUtMzU1Ni00MjkxLWJkZjEtNmE1ODYzZmY3NTM2IiwiZW1haWxfdmVyaWZpZWQiOnRydWUsInVsaWQiOiJmOTRlMDI1MS02MmQxLTRhYTQtYmM1NS1jNDMzNGQzZmExMTQiLCJuYW1lIjoiQXV0b21hdGlvbiBDbHViIG93bmVyIGFjY291bnQiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiIrOTY2NTg4ODg4ODAwIiwiZ2l2ZW5fbmFtZSI6IkF1dG9tYXRpb24gQ2x1YiBvd25lciBhY2NvdW50IiwicmlkIjoiY3VzdF9lc3BvcnRzLmNvbSIsImtleSI6ImN1c3RfZXNwb3J0cy5jb21fS0VZIiwiZW1haWwiOiJhdXRvX2NsdWJAbWFpbGluYXRvci5jb20iLCJjaWQiOiIxX1NUQ1NfQ1VTVCJ9.NBSsU09IkwSitbbjv2BJhAOnBqgH_syUI6oIjCL-17bL7c8vsG0HDwlz8Jv-V2adF9IXNntPsiO5yjKMIG1uL57shciof2lExi6q-34zJ4knYNc1oCqI5vAMRa8cBl2CVcuCZ7ydMOpL45_WMiaNTC3TVG1euqGRHgpTZoN7RHI8p90CWFZUtfiBjPWzEZmrEKy89Cvw58j2268HWsKXFUQmOaR-l456AhWsyK60QT0nzxkUtnhRnVphiYa40PdlJTn9ejZ1sL1RAxmKX1IEkATxz-UiJCJusWhBq9FamexlkdM7j7DSWNLBxE1SqW77_3JuuS0s1s8ecJ6OGJNo0A</value>
+      <webElementGuid>e50dd59f-fd5b-4643-b80c-389db0a20bb1</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Connection</name>
+      <type>Main</type>
+      <value>keep-alive</value>
+      <webElementGuid>e31487bc-c2dc-4c3f-b656-51581e4e41ab</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Cookie</name>
+      <type>Main</type>
+      <value>_ga=GA1.2.1973865504.1686044447; _ga_SB6CJ3T42M=GS1.1.1686207713.7.0.1686224270.0.0.0; _ga_62ZJM7QNXP=GS1.1.1686224270.2.1.1686224271.0.0.0</value>
+      <webElementGuid>242c870c-6f39-4628-a8da-159a7a486486</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Entity</name>
+      <type>Main</type>
+      <value>authnticate</value>
+      <webElementGuid>3e5379be-2e54-4a68-ad12-9d4c2071c82d</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Origin</name>
+      <type>Main</type>
+      <value>https://uat.saudiesports.sa</value>
+      <webElementGuid>72c75b61-90ba-4f48-a27b-697776c01bc5</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Referer</name>
+      <type>Main</type>
+      <value>https://uat.saudiesports.sa/authnticate/teams/add</value>
+      <webElementGuid>c271e822-ca0e-44e4-b53d-8caa3807a372</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Sec-Fetch-Dest</name>
+      <type>Main</type>
+      <value>empty</value>
+      <webElementGuid>76e5d786-d14d-4c1e-b3e4-56dbb72788a8</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Sec-Fetch-Mode</name>
+      <type>Main</type>
+      <value>cors</value>
+      <webElementGuid>78edeeaa-2ccc-4cf0-8015-fe871324aa7d</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Sec-Fetch-Site</name>
+      <type>Main</type>
+      <value>same-origin</value>
+      <webElementGuid>b5c81d81-ad0f-4fd5-bb94-96fbf85affcc</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>User-Agent</name>
+      <type>Main</type>
+      <value>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36</value>
+      <webElementGuid>bdf186ef-5e1a-48fa-a743-b8f1abd69130</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sec-ch-ua</name>
+      <type>Main</type>
+      <value>&quot;Not.A/Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;114&quot;, &quot;Google Chrome&quot;;v=&quot;114&quot;</value>
+      <webElementGuid>15e3a7df-7cb6-42b3-8569-dd02896d65d3</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sec-ch-ua-mobile</name>
+      <type>Main</type>
+      <value>?0</value>
+      <webElementGuid>c0a66185-9a6e-415d-9b89-2bc0fbb9d819</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sec-ch-ua-platform</name>
+      <type>Main</type>
+      <value>&quot;Windows&quot;</value>
+      <webElementGuid>f1c29fa8-87c6-4fc6-80b1-a337e2bd3010</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>9.4.0</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>https://uat.saudiesports.sa/api/team-club/v1/public/file/upload</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

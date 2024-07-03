@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>signup-ClubOwner</name>
+   <tag></tag>
+   <elementGuidId>58f3fc4c-900f-421a-b257-1dd30411133f</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n          \&quot;otpCode\&quot;: \&quot;1111\&quot;,\n          \&quot;signupData\&quot;: {\n            \&quot;countryCode\&quot;: \&quot;+20\&quot;,\n            \&quot;mobileNumber\&quot;: \&quot;1005287256\&quot;,\n            \&quot;email\&quot;: \&quot;yasmine217@clubowner.com\&quot;,\n            \&quot;clubIBAN\&quot;: \&quot;SA1100911713081235771543\&quot;,\n            \&quot;nationalId\&quot;: \&quot;197111519\&quot;,\n            \&quot;crNumber\&quot;: \&quot;2214511156\&quot;,\n            \&quot;clubName\&quot;: \&quot;club name automationn\&quot;,\n            \&quot;clubNameAr\&quot;: \&quot;ؤرررررررر\&quot;,\n            \&quot;name\&quot;: \&quot;club autoox\&quot;,\n            \&quot;password\&quot;: \&quot;test!$1234\&quot;,\n            \&quot;gender\&quot;: \&quot;MALE\&quot;,\n            \&quot;countryId\&quot;: 58,\n            \&quot;nationalIdFile\&quot;: \&quot;${NationalIdFile}\&quot;,\n            \&quot;clubLogo\&quot;: \&quot;${ClubLogoIdFile}\&quot;,\n            \&quot;crFile\&quot;: \&quot;${CrFileIdFile}\&quot;,\n            \&quot;crEndDate\&quot;: \&quot;1769173492013\&quot;,\n            \&quot;clubIBANFile\&quot;: \&quot;${ClubIBANIdFile}\&quot;,\n            \&quot;agreeTerms\&quot;: true\n          }\n        }&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>8f1db817-f443-4953-96b7-77e1d8aa0fee</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>9.4.0</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>https://stage.saudiesports.sa/team-club/v1/public/club-owner-request/signup</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.NationalIdFile</defaultValue>
+      <description></description>
+      <id>548819f8-57ab-4904-b963-84bd44f0cb4b</id>
+      <masked>false</masked>
+      <name>NationalIdFile</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.ClubLogoIdFile</defaultValue>
+      <description></description>
+      <id>54ccc612-929d-4052-9714-a1da0ffb9ae6</id>
+      <masked>false</masked>
+      <name>ClubLogoIdFile</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.CrFileIdFile</defaultValue>
+      <description></description>
+      <id>bcf5eee7-31ed-459b-ad7c-dc128313f9e3</id>
+      <masked>false</masked>
+      <name>CrFileIdFile</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.ClubIBANIdFile</defaultValue>
+      <description></description>
+      <id>81a752f0-4627-4f0f-83f6-ca16218cbced</id>
+      <masked>false</masked>
+      <name>ClubIBANIdFile</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>
