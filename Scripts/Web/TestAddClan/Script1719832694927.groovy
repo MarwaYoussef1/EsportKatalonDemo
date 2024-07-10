@@ -39,13 +39,19 @@ WebUI.setText(findTestObject('Page_Esports_Add_Clan/input_text'), 'Apex')
 //WebUI.enhancedClick(findTestObject('Object Repository/Page_Esports_Add_Clan/span_Select Game_ng-arrow-wrapper'))
 WebUI.click(findTestObject('Object Repository/Page_Esports_Add_Clan/div_Apex Legends'))
 
+WebUI.focus(findTestObject('Page_Esports_Add_Clan/textarea_About_about'))
+
 WebUI.setText(findTestObject('Object Repository/Page_Esports_Add_Clan/textarea_About_about'), 'this is a clan')
 
-WebUI.click(findTestObject('Object Repository/Page_Esports_Add_Clan/div_Clan Name ENClan Name ARGameSelect Game_553727'))
+WebUI.scrollToElement(findTestObject('Page_Esports_Add_Clan/i_Clan Members_icon-plus add-icon'), 0)
 
+//WebUI.click(findTestObject('Object Repository/Page_Esports_Add_Clan/div_Clan Name ENClan Name ARGameSelect Game_553727'))
+//WebUI.acceptAlert()
 WebUI.click(findTestObject('Object Repository/Page_Esports_Add_Clan/i_Clan Members_icon-plus add-icon'))
 
-WebUI.setText(findTestObject('Page_Esports_Add_Clan/input_text_role'), 'content')
+WebUI.click(findTestObject('Object Repository/Page_Esports_Add_Clan/div_Select Role_ng-input'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Esports_Add_Clan/input_text_role'), 'content')
 
 //WebUI.enhancedClick(findTestObject('Object Repository/Page_Esports_Add_Clan/input_text'), FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('Object Repository/Page_Esports_Add_Clan/span_Content Creator'))
@@ -71,7 +77,10 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Esports_Add_Clan/
 WebUI.setText(findTestObject('Page_Esports_Clans/input_Clans_form-control ng-untouched ng-pristine ng-valid'), clanNameEn)
 
 WebUI.delay(3)
+
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Esports_Add_Clan/h4_cccc'))
+
+WebUI.scrollToElement(findTestObject('Page_Esports/mat-icon_arrow_drop_down'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Esports_Add_Clan/mat-icon_arrow_drop_down'))
 

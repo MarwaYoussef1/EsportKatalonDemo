@@ -18,14 +18,14 @@
       <variableId>3e797a6d-e736-4870-8139-d829819c8c35</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Auto_club@mailinator.com\r\n'</defaultValue>
       <description></description>
       <id>9e4d84c8-d0ed-46fa-8147-518334782284</id>
       <masked>false</masked>
       <name>userEmail</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'P@ssw0rd'</defaultValue>
       <description></description>
       <id>3e797a6d-e736-4870-8139-d829819c8c35</id>
       <masked>false</masked>

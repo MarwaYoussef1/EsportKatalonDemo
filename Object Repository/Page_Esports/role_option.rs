@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Please select your role'])[3]/following::div[1]</value>
+         <value>//span[(text() = ' ${role} ' or . = ' ${role} ')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#ae0bb9886695-1</value>
+         <value>#a74cff0b0abc-5 > span.ng-option-label</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -32,16 +32,16 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>b4e4f4de-b6ce-4780-8564-4defe4ecfa7e</webElementGuid>
+      <value>span</value>
+      <webElementGuid>9be0209d-64ba-4d83-8a9d-5f4495d6d89c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ng-option ng-option-marked</value>
-      <webElementGuid>b03c97ea-1007-407a-b77d-27a6fb1b14ce</webElementGuid>
+      <value>ng-option-label</value>
+      <webElementGuid>6f120bfe-863e-44c8-bfb8-0e19acd6cf25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>22318636-14b5-42d7-aae4-2d7c98ecfb83</webElementGuid>
+      <webElementGuid>2741867f-8508-4213-af2d-fe9c08f4f915</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,31 +57,95 @@
       <name>id</name>
       <type>Main</type>
       <value>ae0bb9886695-1</value>
-      <webElementGuid>8c3fb16b-65ea-4df9-967c-5446bcc00178</webElementGuid>
+      <webElementGuid>f24945f4-e34f-44fc-9dd9-ed75a8b9333e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Tournament Organizer </value>
-      <webElementGuid>7b489d7f-d339-4c77-92e8-bf039e212050</webElementGuid>
+      <value> Team Manager </value>
+      <webElementGuid>3d261a79-9cd4-48bf-908e-74911fdc75d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ae0bb9886695-1&quot;)</value>
-      <webElementGuid>f1e64822-f820-4066-8834-d0f6bbef17ee</webElementGuid>
+      <value>id(&quot;a74cff0b0abc-5&quot;)/span[@class=&quot;ng-option-label&quot;]</value>
+      <webElementGuid>4d8cecf3-b92c-4524-a596-953310f7a6e2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='a74cff0b0abc-5']/span</value>
+      <webElementGuid>159e5df3-1d0a-4e54-82d3-30c7fa49b19c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Coach'])[2]/following::span[1]</value>
+      <webElementGuid>22babe81-81d4-416e-ad86-479117ed4aa6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Referee'])[1]/following::span[2]</value>
+      <webElementGuid>2a599a86-9882-4225-acb0-381d2fe04c0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Club Admin'])[1]/preceding::span[1]</value>
+      <webElementGuid>3897870e-318a-4a50-858e-ce2625bc53be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Analyst'])[1]/preceding::span[2]</value>
+      <webElementGuid>8f5df93c-7264-4cc0-ab7c-1071209c6223</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Team Manager']/parent::*</value>
+      <webElementGuid>54051856-310a-46fb-a0a1-ea946961acd0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/span</value>
+      <webElementGuid>e8db8adc-62e4-4e48-be39-0da2466f611a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Team Manager ' or . = ' Team Manager ')]</value>
+      <webElementGuid>51fe99bc-4cc0-438a-a63e-d5b14c7e70b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='ae0bb9886695-1']</value>
-      <webElementGuid>a3c8e63d-27cd-4c4d-8fdf-afe021b15be7</webElementGuid>
+      <webElementGuid>f5ae1a15-b663-4a41-a356-852dea79bb71</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +153,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ng-dropdown-panel[@id='ae0bb9886695']/div/div[2]/div[2]</value>
-      <webElementGuid>2aac8165-87de-45f1-9c44-81efa4e8fff0</webElementGuid>
+      <webElementGuid>ed8ace8e-31a6-41ea-a785-e31fbfbb1412</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +161,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Please select your role'])[3]/following::div[1]</value>
-      <webElementGuid>f2b266b0-8eba-4171-ad3a-812fff188b4f</webElementGuid>
+      <webElementGuid>058ecaa8-c01c-4721-b534-ca0f6fda3af3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +169,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Please select your role'])[2]/following::div[6]</value>
-      <webElementGuid>4386e716-aac8-4c1b-8e4e-dce30e20d402</webElementGuid>
+      <webElementGuid>820e2965-7473-43df-bf69-624df0bd02d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +177,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Club Owner'])[1]/preceding::div[1]</value>
-      <webElementGuid>14521c32-3ffb-4be6-851d-dcbc10240667</webElementGuid>
+      <webElementGuid>677c2a70-bfb9-4ec8-916e-03a8fee96085</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,6 +185,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ng-dropdown-panel/div/div[2]/div[2]</value>
-      <webElementGuid>a6968824-b586-4e71-9e55-78f6a78f9e28</webElementGuid>
+      <webElementGuid>a0fcf611-8d10-43d1-9348-5b602ac144bb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

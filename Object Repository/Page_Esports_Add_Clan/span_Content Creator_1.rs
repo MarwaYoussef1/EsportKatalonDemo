@@ -6,12 +6,12 @@
    <elementGuidId>b22712dd-d3f6-4387-b0ee-c7cff30cf76b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.role.badge</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Invitation list'])[1]/following::span[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-0']/app-clan-members-modal/form/div[2]/div[3]/div/div/div/div/span[2]</value>
+         <key>CSS</key>
+         <value>span.role.badge</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,12 +6,12 @@
    <elementGuidId>e0e1f659-b3c1-4532-b8de-9c559b7ddc57</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li:nth-of-type(2) > a</value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Log out')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='navbarSupportedContent']/ul[2]/li[2]/div/ul/li[2]/a</value>
+         <key>CSS</key>
+         <value>li:nth-of-type(2) > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
