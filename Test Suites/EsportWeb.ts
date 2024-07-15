@@ -53,17 +53,26 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web/Test_SignUp_Roles</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d80ae582-2eda-475a-91d9-8e214c632486</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TestData</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>d80ae582-2eda-475a-91d9-8e214c632486</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>role</value>
          <variableId>da4a5313-578d-4a70-9408-b15ee0a9a7e9</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>d80ae582-2eda-475a-91d9-8e214c632486</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>roleType</value>
          <variableId>3ae64bca-96d6-4b5e-a880-b503b38ecec1</variableId>
       </variableLink>
       <variableLink>

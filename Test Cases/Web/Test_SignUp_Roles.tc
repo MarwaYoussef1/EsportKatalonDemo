@@ -8,7 +8,7 @@
    <testCaseGuid>190c4c0d-16e6-43e5-a691-d160e71c35d6</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>ba071c9c-850d-4e17-9830-42bf6a763f5b</id>
+      <id>482bb1d2-7ec1-4d2e-ad64-40130888fa95</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
@@ -16,13 +16,13 @@
       <testDataId>Data Files/TestData</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>ba071c9c-850d-4e17-9830-42bf6a763f5b</testDataLinkId>
+      <testDataLinkId>482bb1d2-7ec1-4d2e-ad64-40130888fa95</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>role</value>
       <variableId>da4a5313-578d-4a70-9408-b15ee0a9a7e9</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>ba071c9c-850d-4e17-9830-42bf6a763f5b</testDataLinkId>
+      <testDataLinkId>482bb1d2-7ec1-4d2e-ad64-40130888fa95</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>roleType</value>
       <variableId>3ae64bca-96d6-4b5e-a880-b503b38ecec1</variableId>
