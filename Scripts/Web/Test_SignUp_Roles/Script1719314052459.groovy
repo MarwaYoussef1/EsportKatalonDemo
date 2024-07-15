@@ -100,9 +100,10 @@ WebUI.click(findTestObject('Object Repository/Page_Sign in to - Saudi Esports Fe
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Esports/div_Account_Name'))
 
+WebUI.delay(5)
 WebUI.enhancedClick(findTestObject('Object Repository/Page_Esports/mat-icon_arrow_drop_down'))
 
-WebUI.click(findTestObject('Object Repository/Page_Esports/a_Log out'))
+WebUI.enhancedClick(findTestObject('Object Repository/Page_Esports/a_Log out'))
 
 WebUI.closeBrowser()
 
