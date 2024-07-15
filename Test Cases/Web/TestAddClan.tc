@@ -4,5 +4,6 @@
    <name>TestAddClan</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>5c0eaaaa-67dd-459d-9690-0ff87bf0c7ec</testCaseGuid>
 </TestCaseEntity>

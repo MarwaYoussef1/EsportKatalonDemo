@@ -26,13 +26,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>bbaad36c-84b5-4bb7-99d0-6f0340d23dc7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/API/Test_Cancel_Invitation</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>07834951-4a6d-4c26-8c9f-1852405dd0d6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -42,7 +35,7 @@
    <testCaseLink>
       <guid>e1dc04d7-136c-4db3-b156-0b3ea93e6c7a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/API/Test_Reject_Invitation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

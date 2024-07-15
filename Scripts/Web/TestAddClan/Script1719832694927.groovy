@@ -82,7 +82,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Esports_Add_Cl
 
 WebUI.scrollToElement(findTestObject('Page_Esports/mat-icon_arrow_drop_down'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_Esports_Add_Clan/mat-icon_arrow_drop_down'))
+WebUI.enhancedClick(findTestObject('Object Repository/Page_Esports_Add_Clan/mat-icon_arrow_drop_down'))
 
 WebUI.click(findTestObject('Object Repository/Page_Esports_Add_Clan/a_Log out'))
 

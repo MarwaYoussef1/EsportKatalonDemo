@@ -177,7 +177,7 @@ WebUI.click(findTestObject('Object Repository/Page_Esports_SignUp_ClubOwner/butt
 
 WebUI.closeBrowser()
 
-WebUI.openBrowser(GlobalVariable.HOME_URL)
+/*WebUI.openBrowser(GlobalVariable.HOME_URL)
 
 WebUI.maximizeWindow()
 
@@ -187,9 +187,11 @@ WebUI.waitForElementVisible(findTestObject('Page_Sign in to - Saudi Esports Fede
 
 WebUI.setText(findTestObject('Object Repository/Page_Sign in to - Saudi Esports Federation/input__email'), userEmail)
 
+WebUI.delay(10)
+
 WebUI.setText(findTestObject('Object Repository/Page_Sign in to - Saudi Esports Federation/input__password'), user_password)
 
-WebUI.delay(3)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Page_Sign in to - Saudi Esports Federation/input__login'))
 
@@ -197,7 +199,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Esports/accoun
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Esports/p_Your Account Request Still Pending'), 'Your Account Request Still Pending')
 
-WebUI.click(findTestObject('Object Repository/Page_Esports/mat-icon_arrow_drop_down'))
+WebUI.enhancedClick(findTestObject('Object Repository/Page_Esports/mat-icon_arrow_drop_down'))
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Esports/a_Log out'), 5)
 
@@ -224,5 +226,5 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Esports/p_Your Ac
 WebUI.click(findTestObject('Object Repository/Page_Esports/mat-icon_arrow_drop_down'))
 
 WebUI.enhancedClick(findTestObject('Object Repository/Page_Esports/a_Log out'))*/
-WebUI.closeBrowser()
+//WebUI.closeBrowser()*/
 

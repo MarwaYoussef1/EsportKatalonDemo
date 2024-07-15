@@ -4,5 +4,6 @@
    <name>Test_Reject_Invitation</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>b26c7eb0-db0d-47b7-be6c-bac4b96fe0e9</testCaseGuid>
 </TestCaseEntity>

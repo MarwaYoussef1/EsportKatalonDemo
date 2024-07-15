@@ -17,3 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('API/Test_Add_Team'), [:], FailureHandling.STOP_ON_FAILURE)
+
+println('Club_Access_token= ' + GlobalVariable.API_ACCESS_TOKEN)
+WS.sendRequestAndVerify(findTestObject('APIServices/Esport-login/Login', [('userEmail') : GlobalVariable.PLAYER_EMAIL, ('password') : GlobalVariable.PLAYER_PASSWORD
+			, ('home_url') : GlobalVariable.HOME_URL]))
+
+println('player_Access_token= ' + GlobalVariable.API_ACCESS_TOKEN)
+
+response = WS.sendRequestAndVerify(findTestObject('APIServices/Esport-Teams/GET_ Invitation_List', [('token') : GlobalVariable.API_ACCESS_TOKEN
+			, ('home_url') : GlobalVariable.HOME_URL]))
+
+invitation_id = WS.getElementPropertyValue(response, 'content[0].systemId')
+
+WS.sendRequestAndVerify(findTestObject('APIServices/Esport-Teams/Reject Invitation', [('token') : GlobalVariable.API_ACCESS_TOKEN
+			, ('home_url') : GlobalVariable.HOME_URL, ('invitation_system_id') : invitation_id]))

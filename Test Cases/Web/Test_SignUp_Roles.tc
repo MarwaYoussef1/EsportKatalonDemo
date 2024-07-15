@@ -4,6 +4,7 @@
    <name>Test_SignUp_Roles</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>190c4c0d-16e6-43e5-a691-d160e71c35d6</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>

@@ -4,6 +4,7 @@
    <name>Test_SignUp_ClubOwner</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>62dc4788-285c-447b-a8d3-a16c89559b5f</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

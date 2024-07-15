@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>kataloneAPIGUIDemo</name>
+   <name>EsportKatalonDemo</name>
    <tag></tag>
    <UUID>9db0fc53-2062-4aa6-8c68-b0ef08a1c15f</UUID>
    <createdEdition>ENTERPRISE</createdEdition>
@@ -9,9 +9,9 @@
    <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>ENTERPRISE</modifiedEdition>
-   <modifiedVersion>9.4.0</modifiedVersion>
+   <modifiedVersion>9.6.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\marwa\Katalon Studio\kataloneAPIGUIDemo\kataloneAPIGUIDemo.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\marwa\Katalon Studio\EsportKatalonDemo\kataloneAPIGUIDemo.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
