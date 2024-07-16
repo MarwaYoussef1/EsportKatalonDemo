@@ -33,11 +33,9 @@ WebUI.delay(10)
 
 WebUI.click(findTestObject('Object Repository/Page_Esports/span_Invitations'))
 
-WebUI.click(findTestObject('Object Repository/Page_Esports/span_automation player account asked to joi_c179f0'))
-
 WebUI.delay(10)
 
-WebUI.takeAreaScreenshotAsCheckpoint('invitations screen', null)
+WebUI.takeScreenshotAsCheckpoint('invitations screen', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.enhancedClick(findTestObject('Object Repository/Page_Esports/mat-icon_arrow_drop_down'))
 
