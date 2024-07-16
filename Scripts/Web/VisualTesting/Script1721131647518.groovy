@@ -29,7 +29,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Sign in to - Saudi Esports 
 
 WebUI.click(findTestObject('Object Repository/Page_Sign in to - Saudi Esports Federation/input__login'))
 
-WebUI.delay(5)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Object Repository/Page_Esports/span_Invitations'))
 
@@ -37,8 +37,11 @@ WebUI.click(findTestObject('Object Repository/Page_Esports/span_automation playe
 
 WebUI.delay(10)
 
-WebUI.takeScreenshotAsCheckpoint('invitations screen')
+WebUI.takeAreaScreenshotAsCheckpoint('invitations screen', null)
+
 WebUI.enhancedClick(findTestObject('Object Repository/Page_Esports/mat-icon_arrow_drop_down'))
+
 WebUI.click(findTestObject('Object Repository/Page_Esports/a_Log out'))
 
 WebUI.closeBrowser()
+
