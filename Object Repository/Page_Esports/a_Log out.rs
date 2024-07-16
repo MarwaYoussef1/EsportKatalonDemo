@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Log out')]</value>
+         <value>//div[@id='navbarSupportedContent']/ul[2]/li[2]/div/ul/li[2]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>34f1e2f6-310b-47e2-a3de-87fee4d12c34</webElementGuid>
+      <webElementGuid>87223b64-b99e-4964-93d4-c307ca14fa2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Log out </value>
-      <webElementGuid>4969864c-e0be-4831-bdf9-d5a5574fdb8a</webElementGuid>
+      <webElementGuid>ea9f3fc7-e528-46b7-b386-37bcadeff6e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarSupportedContent&quot;)/ul[@class=&quot;navbar-nav&quot;]/li[2]/div[@class=&quot;dropdown ng-star-inserted&quot;]/ul[@class=&quot;dropdown-content px-0 list-unstyled&quot;]/li[2]/a[1]</value>
-      <webElementGuid>fdc7e7d0-f501-41bc-ab28-8b64059e6f89</webElementGuid>
+      <webElementGuid>c2b129de-67ca-4be6-bc0a-7d3de246ebb6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarSupportedContent']/ul[2]/li[2]/div/ul/li[2]/a</value>
-      <webElementGuid>c22309e2-8cb5-430a-a9b9-e1563ac09863</webElementGuid>
+      <webElementGuid>0baab068-45bf-4f34-b7f4-4d8f26d5c720</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Log out')]</value>
-      <webElementGuid>b79fa7fa-2b1e-40d0-a21c-4fabe2215ff9</webElementGuid>
+      <webElementGuid>15d6d28d-d7d1-403c-82e6-b8aa5c6a3700</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,55 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Profile'])[1]/following::a[1]</value>
-      <webElementGuid>dc14656d-9ad4-4fc0-ae7c-136d7506de64</webElementGuid>
+      <webElementGuid>f4d9c43d-f616-4890-9a2b-c07ac2fe726e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Club Owner'])[1]/following::a[2]</value>
+      <webElementGuid>6e8d6c24-7d44-4cb9-bdd5-d2de4e93fa75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invitations'])[2]/preceding::a[1]</value>
+      <webElementGuid>74651fc8-3b73-4fd6-8810-702a1f8c15e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Received Invitations'])[1]/preceding::a[1]</value>
+      <webElementGuid>2dc190c9-ad95-4019-ad09-b4bbed12dfdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Log out']/parent::*</value>
+      <webElementGuid>e6498cc0-50c4-4fac-8bdf-c8bc7cfc990e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a</value>
+      <webElementGuid>d8608dc8-6c1e-4f34-9165-a618bbfb837b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = ' Log out ' or . = ' Log out ')]</value>
+      <webElementGuid>d41bb959-f3db-4dbc-a079-d6d487b1e328</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,29 +142,5 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='+ Add New Clan'])[1]/preceding::a[1]</value>
       <webElementGuid>4d1a3cf9-0f67-473d-b182-073bdb46ee57</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Log out']/parent::*</value>
-      <webElementGuid>1f7b9dc9-2288-4417-ac8f-bc01f29d87e3</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//li[2]/a</value>
-      <webElementGuid>d0089859-ac06-4e61-9726-5b370b8bf729</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[(text() = ' Log out ' or . = ' Log out ')]</value>
-      <webElementGuid>92bcdeea-ef7f-4ff7-9c20-58ff7e18576c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

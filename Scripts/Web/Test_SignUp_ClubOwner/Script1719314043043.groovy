@@ -71,7 +71,7 @@ def crNumber = CustomKeywords.'esport.Utils.randomString'(10, 'num')
 
 def iban = 'SA' + CustomKeywords.'esport.Utils.randomString'(22, 'num')
 
-WebUI.openBrowser('https://uat.saudiesports.sa/')
+WebUI.openBrowser(GlobalVariable.HOME_URL)
 
 WebUI.maximizeWindow()
 

@@ -23,7 +23,7 @@ def mobileNum = '56' + CustomKeywords.'esport.Utils.randomString'(7, 'num')
 
 def userEmail = CustomKeywords.'esport.Utils.randomEmail'(GlobalVariable.DOMAIN_MAIL)
 
-WebUI.openBrowser('https://uat.saudiesports.sa/')
+WebUI.openBrowser(GlobalVariable.HOME_URL)
 
 WebUI.maximizeWindow()
 

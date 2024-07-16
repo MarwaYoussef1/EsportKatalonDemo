@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>60b0ae42-5513-491a-9448-4af2977075eb</webElementGuid>
+      <webElementGuid>339e7feb-9ed7-490a-bbc2-cf044125c0fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn login-btn</value>
-      <webElementGuid>907ae39c-da23-47a2-92ef-d47a938d83da</webElementGuid>
+      <webElementGuid>e5ceb2f3-3390-4ef4-a92f-a9a276f6464e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,15 +45,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Login</value>
-      <webElementGuid>ff5a7905-3f4b-45ea-94ef-1e9cd3679429</webElementGuid>
+      <webElementGuid>32bfa3f9-9e9d-4092-9716-9073e3284f80</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;default-theme&quot;]/app-root[1]/app-public-layout[1]/main[@class=&quot;layout-container bg&quot;]/div[@class=&quot;layout-content&quot;]/app-sef-header[1]/app-navbar-lg[1]/nav[@class=&quot;navbar navbar-expand-lg sef-nav&quot;]/div[@class=&quot;container-fluid p-0&quot;]/div[@class=&quot;nav-btns-container&quot;]/div[2]/button[@class=&quot;btn login-btn&quot;]</value>
-      <webElementGuid>4e43bb41-e5bc-4f43-89f7-994e62555caf</webElementGuid>
+      <value>/html[1]/body[@class=&quot;default-theme&quot;]/app-root[1]/app-public-layout[@class=&quot;ng-star-inserted&quot;]/main[@class=&quot;layout-container bg&quot;]/div[@class=&quot;layout-content&quot;]/app-sef-header[1]/app-navbar-lg[@class=&quot;ng-star-inserted&quot;]/nav[@class=&quot;navbar navbar-expand-lg sef-nav&quot;]/div[@class=&quot;container-fluid p-0&quot;]/div[@class=&quot;nav-btns-container&quot;]/div[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;btn login-btn&quot;]</value>
+      <webElementGuid>eee8b258-0e42-46ac-88c6-13f4b1b01840</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='عربي'])[1]/following::button[1]</value>
-      <webElementGuid>d946fa79-f7fe-4837-9408-b3a44efeccb0</webElementGuid>
+      <webElementGuid>9fd38262-da62-42ad-83d4-3a134a6634e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ع'])[1]/following::button[1]</value>
-      <webElementGuid>03002856-09a7-4518-a813-413bd23dfaf8</webElementGuid>
+      <webElementGuid>2c33cb10-a739-49c7-a067-be4f6237b5dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SEF Arena'])[1]/preceding::button[1]</value>
-      <webElementGuid>3bc5c295-9739-44b9-9ddb-0736409924ef</webElementGuid>
+      <webElementGuid>84638a3f-3059-4905-b8a0-022e5ca72782</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='abc'])[1]/preceding::button[1]</value>
-      <webElementGuid>25eab33c-24fb-4302-9a4a-0c4b8902db8e</webElementGuid>
+      <webElementGuid>ba63ae8a-0395-43eb-a628-50accff267c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-      <webElementGuid>544a0423-967c-449f-8f54-2419bd044ee8</webElementGuid>
+      <webElementGuid>b80eac82-848a-4a82-b722-6ceb9e810613</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>7436a850-1cfa-4b2a-89b4-4316113f982c</webElementGuid>
+      <webElementGuid>cfa75172-8c42-4df0-966c-d6f1b4981fbe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>26f3118f-17b5-4718-8474-01a6185133ec</webElementGuid>
+      <webElementGuid>e21f6cc6-13e4-4749-954e-0a2ca5362c49</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
