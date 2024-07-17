@@ -27,7 +27,11 @@ WebUI.openBrowser(GlobalVariable.HOME_URL)
 
 WebUI.maximizeWindow()
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Page_Esports/button_Login'))
+
+WebUI.scrollToElement(findTestObject('Page_Sign in to - Saudi Esports Federation/button_Create New Account'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Sign in to - Saudi Esports Federation/button_Create New Account'))
 
@@ -41,9 +45,13 @@ WebUI.setText(findTestObject('Object Repository/Page_Esports/input__pcrName'), u
 
 WebUI.setText(findTestObject('Object Repository/Page_Esports/input__pcrEmail'), userEmail)
 
+WebUI.scrollToElement(findTestObject('Object Repository/Page_Esports/input_Code_pcrMobileNumber'), 0)
+
 WebUI.setText(findTestObject('Object Repository/Page_Esports/input_Code_pcrMobileNumber'), mobileNum)
 
 WebUI.enhancedClick(findTestObject('Object Repository/Page_Esports/span_Male_mat-radio-outer-circle'))
+
+WebUI.scrollToElement(findTestObject('Page_Esports/button_Continue'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Esports/button_Continue'))
 
@@ -85,6 +93,8 @@ WebUI.setText(findTestObject('Object Repository/Page_Esports/input_Mobile Verifi
 WebUI.setText(findTestObject('Object Repository/Page_Esports/input_Mobile Verification_thirdInput'), '1')
 
 WebUI.setText(findTestObject('Object Repository/Page_Esports/input_Mobile Verification_fourthInput'), '1')
+
+WebUI.scrollToElement(findTestObject('Page_Esports/button_Verify'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Esports/button_Verify'))
 

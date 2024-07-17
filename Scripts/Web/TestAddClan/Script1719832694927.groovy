@@ -70,6 +70,8 @@ WebUI.click(findTestObject('Object Repository/Page_Esports_Add_Clan/button_Save'
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Esports_Add_Clan/button_Content Creator'))
 
+WebUI.scrollToElement(findTestObject('Object Repository/Page_Esports_Add_Clan/button_Save_1'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Esports_Add_Clan/button_Save_1'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Esports_Add_Clan/div_Clan Added Successfully'), 'Clan Added Successfully')
