@@ -26,6 +26,8 @@ WebUI.callTestCase(findTestCase('Web/TestLogin'), [('userEmail') : GlobalVariabl
 
 WebUI.click(findTestObject('Object Repository/Page_Esports_Add_Clan/span_Clans'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Page_Esports_Add_Clan/span_Add New Clan'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Esports_Add_Clan/input_Clan Name EN_clanNameEn'), clanNameEn)
