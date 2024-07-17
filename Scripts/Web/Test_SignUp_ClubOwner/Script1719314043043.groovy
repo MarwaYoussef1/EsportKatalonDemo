@@ -23,9 +23,9 @@ import java.nio.file.Paths as Paths
 import java.nio.file.*
 
 //def userDir = System.getProperty('user.dir')
-String relativePath = 'Uploads/SignUpPdf.pdf'
+String relativePath = 'Data Files/SignUpPdf.pdf'
 
-String relativePathLogo = 'Uploads/content.png'
+String relativePathLogo = 'Data Files/content.png'
 
 
 
