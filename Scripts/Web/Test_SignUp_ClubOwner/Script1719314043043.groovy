@@ -27,7 +27,14 @@ String relativePath = 'Uploads/SignUpPdf.pdf'
 
 String relativePathLogo = 'Uploads/content.png'
 
-Path projectPath = Paths.get(RunConfiguration.getProjectDir())
+
+
+// Get the absolute path using the project directory
+String katTestFilePath = RunConfiguration.getProjectDir() + "/" + relativePath
+
+String katTestFilePathLogo = RunConfiguration.getProjectDir() + "/" + relativePathLogo
+
+/*Path projectPath = Paths.get(RunConfiguration.getProjectDir())
 
 Path katTestFile = projectPath.resolve('Data Files').resolve(relativePath)
 
@@ -51,7 +58,7 @@ println("Files.exists(katTestFile) : $found")
 
 println("katTestFileLogo : $katTestFilePathLogo")
 
-println("Files.exists(katTestFileLogo) : $foundLogo")
+println("Files.exists(katTestFileLogo) : $foundLogo")*/
 
 def userName = CustomKeywords.'esport.Utils.randomString'(5, 'String')
 
