@@ -22,6 +22,13 @@ import java.nio.file.Path as Path
 import java.nio.file.Paths as Paths
 import java.nio.file.*
 
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.remote.LocalFileDetector
+import org.openqa.selenium.support.events.EventFiringWebDriver
+import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.webui.driver.DriverFactory
+import com.kms.katalon.selenium.driver.CRemoteWebDriver
+
 //def userDir = System.getProperty('user.dir')
 String relativePath = 'Data Files/SignUpPdf.pdf'
 
@@ -30,9 +37,9 @@ String relativePathLogo = 'Data Files/content.png'
 
 
 // Get the absolute path using the project directory
-String katTestFilePath = RunConfiguration.getProjectDir() + "/" + relativePath
+//String katTestFilePath = RunConfiguration.getProjectDir() + "/" + relativePath
 
-String katTestFilePathLogo = RunConfiguration.getProjectDir() + "/" + relativePathLogo
+//String katTestFilePathLogo = RunConfiguration.getProjectDir() + "/" + relativePathLogo
 
 /*Path projectPath = Paths.get(RunConfiguration.getProjectDir())
 
@@ -79,6 +86,20 @@ def crNumber = CustomKeywords.'esport.Utils.randomString'(10, 'num')
 def iban = 'SA' + CustomKeywords.'esport.Utils.randomString'(22, 'num')
 
 WebUI.openBrowser(GlobalVariable.HOME_URL)
+
+EventFiringWebDriver driver = DriverFactory.getWebDriver()
+
+WebDriver wrappedDriver = driver.getWrappedDriver()
+
+if (wrappedDriver.class == CRemoteWebDriver) {
+
+wrappedDriver.setFileDetector(new LocalFileDetector())
+
+}
+
+String katTestFilePath = new File(RunConfiguration.getProjectDir() + '/' + relativePath).getCanonicalPath()
+
+String katTestFilePathLogo = new File(RunConfiguration.getProjectDir() + '/' + relativePathLogo).getCanonicalPath()
 
 WebUI.maximizeWindow()
 
