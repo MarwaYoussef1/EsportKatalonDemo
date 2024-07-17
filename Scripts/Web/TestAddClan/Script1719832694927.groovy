@@ -23,6 +23,7 @@ def clanNameAr = 'نادى ' + CustomKeywords.'esport.Utils.randomArabicString'(
 
 WebUI.callTestCase(findTestCase('Web/TestLogin'), [('userEmail') : GlobalVariable.PLAYER_EMAIL, ('userPassword') : GlobalVariable.PLAYER_PASSWORD], 
     FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_Esports_Add_Clan/span_Clans'))
 
