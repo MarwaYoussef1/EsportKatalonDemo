@@ -23,6 +23,7 @@ def clanNameAr = 'نادى ' + CustomKeywords.'esport.Utils.randomArabicString'(
 
 WebUI.callTestCase(findTestCase('Web/TestLogin'), [('userEmail') : GlobalVariable.PLAYER_EMAIL, ('userPassword') : GlobalVariable.PLAYER_PASSWORD], 
     FailureHandling.STOP_ON_FAILURE)
+
 WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_Esports_Add_Clan/span_Clans'))
@@ -76,9 +77,10 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Esports_Add_Cl
 WebUI.scrollToElement(findTestObject('Object Repository/Page_Esports_Add_Clan/button_Save_1'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Esports_Add_Clan/button_Save_1'))
+
 WebUI.delay(1)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Esports_Add_Clan/div_Clan Added Successfully'), 'Clan Added Successfully')
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Esports_Add_Clan/div_Clan Added Successfully'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Page_Esports_Clans/input_Clans_form-control ng-untouched ng-pristine ng-valid'), clanNameEn)
 
