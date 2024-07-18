@@ -10,26 +10,6 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>UAT</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome (headless)</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/EsportWeb</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Web Desktop</groupName>
-            <profileName>UAT</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome (headless)</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/EsportAPI</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Web Desktop</groupName>
             <profileName>Staging</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome (headless)</runConfigurationId>
