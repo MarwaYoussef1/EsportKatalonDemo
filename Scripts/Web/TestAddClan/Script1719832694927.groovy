@@ -78,8 +78,6 @@ WebUI.scrollToElement(findTestObject('Object Repository/Page_Esports_Add_Clan/bu
 
 WebUI.click(findTestObject('Object Repository/Page_Esports_Add_Clan/button_Save_1'))
 
-WebUI.delay(1)
-
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Esports_Add_Clan/div_Clan Added Successfully'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Page_Esports_Clans/input_Clans_form-control ng-untouched ng-pristine ng-valid'), clanNameEn)
